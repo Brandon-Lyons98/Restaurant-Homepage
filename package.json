@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-homepage",
+  "version": "1.0.0",
+  "description": "A restaurant homepage made with HTML, CSS, and JavaScript. The full content of the homepage will be generated with JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon-Lyons98/Restaurant-Homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon-Lyons98/Restaurant-Homepage/issues"
+  },
+  "homepage": "https://github.com/Brandon-Lyons98/Restaurant-Homepage#readme",
+  "devDependencies": {
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
