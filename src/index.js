@@ -1,1 +1,3 @@
-alert("Testing");
+import initializeWebsite from "./website";
+
+initializeWebsite();
