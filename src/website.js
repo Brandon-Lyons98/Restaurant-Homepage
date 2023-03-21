@@ -82,6 +82,7 @@ function createFooter() {
 
   const githubLink = document.createElement('a');
   githubLink.textContent = 'https://github.com/Brandon-Lyons98';
+  githubLink.href = 'https://github.com/Brandon-Lyons98';
 
   footer.appendChild(copyright);
   footer.appendChild(githubLink);
