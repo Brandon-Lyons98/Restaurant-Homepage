@@ -3,13 +3,15 @@ function contactUs() {
   contact.classList.add('contact');
 
   const phone = document.createElement('p');
-  phone.textContent = '123 - 456 - 7890';
+  phone.textContent = 'Phone number: 123 - 456 - 7890';
 
   const address = document.createElement('p');
-  address.textContent = '452 Example Boulevard, '
+  address.textContent = 'Street Address: 3655 S Las Vegas Blvd, Las Vegas, NV 89109'
 
   contact.appendChild(phone);
   contact.appendChild(address);
+
+  return contact;
 }
 
 function loadContact() {
