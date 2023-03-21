@@ -12,7 +12,7 @@ function createMenu() {
     createOption('Salmon', 44, 'coho salmon, roasted corn and jalapeño purée, chili oil, baby vegetables')
   );
   menu.appendChild(
-    createOption('Roasted Beef Wellington', 60, 'served medium rare, glazed root vegetables, potato purée, red wine demi-glaze (contains pork')
+    createOption('Roasted Beef Wellington', 60, 'served medium rare, glazed root vegetables, potato purée, red wine demi-glaze (contains pork)')
   );
 
   return menu;
