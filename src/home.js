@@ -9,7 +9,7 @@ function createHome() {
   para2.textContent = 'Join us for a 3 star dining experience!';
 
   const chefImg = document.createElement('img');
-  chefImg.src = '../dist/images/chef.jpg';
+  chefImg.src = 'images/chef.jpg';
   chefImg.classList.add('chef-img');
 
   const para3 = document.createElement('p');
