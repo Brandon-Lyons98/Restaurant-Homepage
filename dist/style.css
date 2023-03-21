@@ -1,10 +1,94 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header,
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 1.2em;
+  background-color: rgba(46, 46, 46, 0.505);
+  color: whitesmoke;
+}
+
+.header {
+  margin-top: 5em;
+  padding-bottom: 2em;
+}
+
+.restaurant-name {
+  font-size: 2.3em;
+  font-weight: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.nav-button {
+  width: 8%;
+  height: 25px;
+  margin: 0 2em;
+  font-size: 1em;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 body {
   background-image: url('./images/background-image.jpg');
   position: fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.home > p {
+  font-size: 1em;
+}
+
+.chef-img {
+  width: 17%;
+  height: auto;
+  border-radius: 55%;
+  min-width: 150px;
+}
+
+.contact {
+  margin: 1.2em;
+  font-size: 1.25em;
+}
+
+.contact > p {
+  margin: 1em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(46, 46, 46, 0.505);
+  color: whitesmoke;
+  padding: .5em;
 }
